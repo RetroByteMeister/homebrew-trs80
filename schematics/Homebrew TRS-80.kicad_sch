@@ -12733,6 +12733,396 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "uPD416c:uPD416c"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U15"
+				(at 13.208 19.812 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "uPD416c"
+				(at 13.462 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+				(at 0 -20.828 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://datasheet4u.com/pdf/609014/D416C.pdf"
+				(at 0 -16.764 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "16384 x 1 bit Dynamic RAM, 120/150ns access time, -5V, +5V, +12V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
+				(at 1.016 -18.796 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DRAM NMOS 16Kbit MEMORY Obsolete"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*DIP*7.62mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "uPD416c_0_1"
+				(rectangle
+					(start -10.16 15.24)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "uPD416c_1_0"
+				(pin power_in line
+					(at -3.81 17.78 270)
+					(length 2.54)
+					(name "VBB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 17.78 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "uPD416c_1_1"
+				(pin input line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "~{WRITE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "~{RAS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "~{CAS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "This might actually happen on the Video board!"
 		(exclude_from_sim no)
@@ -12902,6 +13292,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b6cdfd9-468a-4c1c-a813-a9f9b044109a")
+	)
+	(junction
+		(at 245.11 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bf9b0e4-5ffe-42f3-a03b-aebc31bdce41")
 	)
 	(junction
 		(at 76.2 375.92)
@@ -17504,6 +17900,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 292.1) (xy 259.08 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019b05e3-8c94-4224-9e1b-2ca576cfdda5")
+	)
+	(wire
+		(pts
 			(xy 46.99 81.28) (xy 69.85 81.28)
 		)
 		(stroke
@@ -17854,16 +18260,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 424.18) (xy 337.82 424.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ac124f5-827d-41a3-91f1-a5887d9b6396")
-	)
-	(wire
-		(pts
 			(xy 212.09 66.04) (xy 209.55 66.04)
 		)
 		(stroke
@@ -18001,6 +18397,16 @@
 			(type default)
 		)
 		(uuid "0daf055a-e17b-47dd-a81c-dffdeb8483c4")
+	)
+	(wire
+		(pts
+			(xy 36.83 2.54) (xy 36.83 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dafe2d9-89e9-45cb-8e40-15f5540e246c")
 	)
 	(wire
 		(pts
@@ -18234,6 +18640,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 208.28) (xy 175.26 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162b144f-f6f4-4bdc-94fd-fad8f454fdec")
+	)
+	(wire
+		(pts
 			(xy 361.95 317.5) (xy 382.27 317.5)
 		)
 		(stroke
@@ -18362,6 +18778,16 @@
 		)
 		(uuid "19c32263-c661-4e88-884f-227059cee3dd")
 	)
+	(wire
+		(pts
+			(xy 302.26 415.29) (xy 304.8 415.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19df1d41-a9d0-4b60-a7db-72526905d69c")
+	)
 	(bus
 		(pts
 			(xy 302.26 171.45) (xy 414.02 171.45)
@@ -18391,6 +18817,16 @@
 			(type default)
 		)
 		(uuid "1a5bc337-6d3d-40d2-8c10-63dc3ca4faba")
+	)
+	(wire
+		(pts
+			(xy 302.26 292.1) (xy 303.53 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af0db4a-66eb-4b73-b2ed-d4af56b4efa0")
 	)
 	(wire
 		(pts
@@ -18794,6 +19230,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 375.92) (xy 304.8 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b77e5a-adbd-4a00-bea7-53330e5560ab")
+	)
+	(wire
+		(pts
 			(xy 196.85 66.04) (xy 196.85 104.14)
 		)
 		(stroke
@@ -18911,16 +19357,6 @@
 			(type default)
 		)
 		(uuid "2b1e7133-ebea-4f87-ba3e-cd167685198e")
-	)
-	(wire
-		(pts
-			(xy 246.38 345.44) (xy 251.46 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b5406b3-6523-45a5-8076-a7fafe3feef3")
 	)
 	(wire
 		(pts
@@ -19144,6 +19580,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 336.55) (xy 260.35 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332359a5-946f-4eb3-8dcf-cb506cfaec78")
+	)
+	(wire
+		(pts
 			(xy 314.96 354.33) (xy 314.96 359.41)
 		)
 		(stroke
@@ -19201,6 +19647,16 @@
 			(type default)
 		)
 		(uuid "34e02fe4-853e-46d0-8418-67824d34d946")
+	)
+	(wire
+		(pts
+			(xy 342.9 295.91) (xy 345.44 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c1a376-63e4-486f-a540-2af7cdbd2a08")
 	)
 	(bus
 		(pts
@@ -19274,16 +19730,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 345.44) (xy 337.82 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38394461-7839-402e-ad1e-3748e746a13e")
-	)
-	(wire
-		(pts
 			(xy 250.19 80.01) (xy 250.19 68.58)
 		)
 		(stroke
@@ -19331,6 +19777,16 @@
 			(type default)
 		)
 		(uuid "3941cde7-caaf-45b3-b086-cc33b5d9be29")
+	)
+	(wire
+		(pts
+			(xy 259.08 372.11) (xy 260.35 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b0e417-c36c-450a-ab3e-aaf97b799450")
 	)
 	(wire
 		(pts
@@ -19654,6 +20110,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 415.29) (xy 260.35 415.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41856e86-b6a7-4745-b0bc-39166ceed9e3")
+	)
+	(wire
+		(pts
 			(xy 222.25 306.07) (xy 222.25 304.8)
 		)
 		(stroke
@@ -19834,6 +20300,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 101.6) (xy 24.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a14286-8d5c-4c2d-8f0d-db9778d31688")
+	)
+	(wire
+		(pts
 			(xy 110.49 95.25) (xy 110.49 96.52)
 		)
 		(stroke
@@ -19841,6 +20317,16 @@
 			(type default)
 		)
 		(uuid "45c4932e-b668-4c0b-91e7-5ddf94246bf0")
+	)
+	(wire
+		(pts
+			(xy 215.9 415.29) (xy 218.44 415.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f355cc-a3f5-4e29-aa81-ecbc4b319526")
 	)
 	(wire
 		(pts
@@ -19932,6 +20418,16 @@
 		)
 		(uuid "487a8843-b7ce-4381-a047-7d924c77fe3c")
 	)
+	(wire
+		(pts
+			(xy 345.44 411.48) (xy 346.71 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f8d9e9-ee84-4a7c-a698-e3f481df7018")
+	)
 	(bus
 		(pts
 			(xy 151.13 421.64) (xy 191.77 421.64)
@@ -19941,6 +20437,26 @@
 			(type default)
 		)
 		(uuid "496eecac-c296-4af9-97a0-25a6a2911924")
+	)
+	(wire
+		(pts
+			(xy 280.67 22.86) (xy 285.75 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a6c9e2-57cf-42f1-8a2e-692f89b52cef")
+	)
+	(wire
+		(pts
+			(xy 302.26 336.55) (xy 304.8 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e94f3c-0bae-469f-9cb2-98040db542aa")
 	)
 	(wire
 		(pts
@@ -19961,16 +20477,6 @@
 			(type default)
 		)
 		(uuid "4a30c3a0-3f3d-42d9-bc8c-2fbacc2ad927")
-	)
-	(wire
-		(pts
-			(xy 331.47 304.8) (xy 336.55 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a9bf061-c6b2-4251-ab05-0a97cef67697")
 	)
 	(wire
 		(pts
@@ -20454,13 +20960,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 304.8) (xy 250.19 304.8)
+			(xy 285.75 88.9) (xy 248.92 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58650a97-4dba-4b59-8307-7a4731359e47")
+		(uuid "5857b7a7-63d6-4e43-8b18-a236542902e1")
 	)
 	(wire
 		(pts
@@ -20501,6 +21007,16 @@
 			(type default)
 		)
 		(uuid "599e468d-1b89-44f4-a6da-c395d3f58e98")
+	)
+	(wire
+		(pts
+			(xy 217.17 372.11) (xy 218.44 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59aa3435-cb2c-4c66-b834-30bad5a18df3")
 	)
 	(wire
 		(pts
@@ -20581,16 +21097,6 @@
 			(type default)
 		)
 		(uuid "5af82315-646f-466e-a226-5bed81a133f4")
-	)
-	(wire
-		(pts
-			(xy 246.38 384.81) (xy 251.46 384.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b00fc77-5ef9-444a-bc6c-f9faf5eba899")
 	)
 	(wire
 		(pts
@@ -20774,6 +21280,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 372.11) (xy 304.8 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e2c152-f6c4-41ef-94a4-fa7c649215fa")
+	)
+	(wire
+		(pts
 			(xy 46.99 91.44) (xy 52.07 91.44)
 		)
 		(stroke
@@ -20841,6 +21357,16 @@
 			(type default)
 		)
 		(uuid "64f4091e-7e80-4462-96a5-5da868419f58")
+	)
+	(wire
+		(pts
+			(xy 256.54 295.91) (xy 259.08 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65bcf43e-d8e3-40d2-865e-ca3fe1cd52c0")
 	)
 	(wire
 		(pts
@@ -21084,6 +21610,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 375.92) (xy 346.71 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3815f6-dac0-45ee-92ea-92d4f93a93ab")
+	)
+	(wire
+		(pts
 			(xy 303.53 68.58) (xy 303.53 71.12)
 		)
 		(stroke
@@ -21121,6 +21657,16 @@
 			(type default)
 		)
 		(uuid "6df9d1d0-488d-4492-ada7-78edf3611779")
+	)
+	(wire
+		(pts
+			(xy 271.78 22.86) (xy 271.78 2.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1365e9-f273-451f-a7e4-c45ea84cfe4c")
 	)
 	(wire
 		(pts
@@ -21392,6 +21938,16 @@
 		)
 		(uuid "76e6278c-acf7-4e91-be79-c9e2dfe401de")
 	)
+	(wire
+		(pts
+			(xy 266.7 8.89) (xy 241.3 8.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77139755-a452-4ae6-9ada-82f4cff69b34")
+	)
 	(bus
 		(pts
 			(xy 212.09 311.15) (xy 212.09 350.52)
@@ -21414,16 +21970,6 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 345.44) (xy 293.37 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77d81666-031e-4a39-bbfb-4735d57d2b69")
-	)
-	(wire
-		(pts
 			(xy 157.48 201.93) (xy 157.48 208.28)
 		)
 		(stroke
@@ -21431,16 +21977,6 @@
 			(type default)
 		)
 		(uuid "781161e9-299b-48f3-8588-ede76171d8f3")
-	)
-	(wire
-		(pts
-			(xy 246.38 424.18) (xy 251.46 424.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7894be7e-1a85-49d3-bb0e-3511417c8b0b")
 	)
 	(wire
 		(pts
@@ -21634,6 +22170,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 295.91) (xy 217.17 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80044c43-7313-456b-889b-1b24e014fdfc")
+	)
+	(wire
+		(pts
 			(xy 107.95 153.67) (xy 107.95 156.21)
 		)
 		(stroke
@@ -21684,6 +22230,26 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 38.1) (xy 266.7 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d8658b-568e-44fe-a902-d8d1c96986ff")
+	)
+	(wire
+		(pts
+			(xy 300.99 295.91) (xy 303.53 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81100a92-775c-4d53-b573-4d8f431adeac")
+	)
+	(wire
+		(pts
 			(xy 24.13 134.62) (xy 29.21 134.62)
 		)
 		(stroke
@@ -21711,16 +22277,6 @@
 			(type default)
 		)
 		(uuid "8236a618-5745-473f-b0de-7c367e51183b")
-	)
-	(wire
-		(pts
-			(xy 287.02 304.8) (xy 292.1 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "824a5437-e289-4112-aa82-5f3eb8d34c8b")
 	)
 	(wire
 		(pts
@@ -21884,6 +22440,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 292.1) (xy 345.44 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c0185b-5b2b-443b-a2b0-8a300ed36f68")
+	)
+	(wire
+		(pts
 			(xy 322.58 358.14) (xy 322.58 359.41)
 		)
 		(stroke
@@ -21964,13 +22530,13 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 345.44) (xy 379.73 345.44)
+			(xy 344.17 336.55) (xy 346.71 336.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89d44f81-0b2f-4f1d-a8a3-0853c6b70bbd")
+		(uuid "89ab238d-8aa5-4bd3-abe8-c607935978d3")
 	)
 	(bus
 		(pts
@@ -22144,6 +22710,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 332.74) (xy 218.44 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efd20dd-05f7-49f7-b212-40d055c5aea0")
+	)
+	(wire
+		(pts
 			(xy 58.42 238.76) (xy 58.42 104.14)
 		)
 		(stroke
@@ -22221,6 +22797,16 @@
 			(type default)
 		)
 		(uuid "90e5a8f7-afb8-4f65-b01d-21144cea903a")
+	)
+	(wire
+		(pts
+			(xy 271.78 2.54) (xy 36.83 2.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9152b83f-3966-4662-a12c-3fb45f1cd012")
 	)
 	(wire
 		(pts
@@ -22441,6 +23027,16 @@
 			(type default)
 		)
 		(uuid "99fb5f23-d467-4b15-a906-5fa9c9375610")
+	)
+	(wire
+		(pts
+			(xy 344.17 415.29) (xy 346.71 415.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a1161bc-38cf-452d-8220-03005283f779")
 	)
 	(wire
 		(pts
@@ -22934,6 +23530,26 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 88.9) (xy 248.92 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93c6b6f-c0d0-4d98-a2e4-546892d2af3a")
+	)
+	(wire
+		(pts
+			(xy 280.67 72.39) (xy 245.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e9aa62-d5af-4aca-a174-771ffa8830cf")
+	)
+	(wire
+		(pts
 			(xy 157.48 194.31) (xy 157.48 195.58)
 		)
 		(stroke
@@ -22961,16 +23577,6 @@
 			(type default)
 		)
 		(uuid "aa3ee1ad-87ff-4445-9432-c347d1d01a10")
-	)
-	(wire
-		(pts
-			(xy 288.29 384.81) (xy 293.37 384.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa766a54-bd8d-43db-b34b-efb79e8fa3a1")
 	)
 	(wire
 		(pts
@@ -23124,6 +23730,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 411.48) (xy 260.35 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adae4454-610e-41d0-af78-650e499b951b")
+	)
+	(wire
+		(pts
 			(xy 383.54 189.23) (xy 383.54 193.04)
 		)
 		(stroke
@@ -23222,6 +23838,16 @@
 		)
 		(uuid "af1ff434-d168-4ced-bbf6-7966262412f1")
 	)
+	(wire
+		(pts
+			(xy 266.7 38.1) (xy 266.7 8.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af67f422-1a48-4dfc-8561-b1a64454a4a5")
+	)
 	(bus
 		(pts
 			(xy 162.56 64.77) (xy 190.5 64.77)
@@ -23304,6 +23930,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 38.1) (xy 280.67 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38551fd-0d0c-4529-9ff1-f20dfd1322e4")
+	)
+	(wire
+		(pts
 			(xy 294.64 140.97) (xy 294.64 162.56)
 		)
 		(stroke
@@ -23361,6 +23997,16 @@
 			(type default)
 		)
 		(uuid "b56351f1-23ca-4f23-938e-a241bd03351e")
+	)
+	(wire
+		(pts
+			(xy 215.9 292.1) (xy 217.17 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5cf3bb7-27eb-4561-b648-0a62208a5f9b")
 	)
 	(wire
 		(pts
@@ -23724,16 +24370,6 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 384.81) (xy 379.73 384.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c06d8465-2ecb-4096-b5ab-17e354fb0bfd")
-	)
-	(wire
-		(pts
 			(xy 236.22 318.77) (xy 278.13 318.77)
 		)
 		(stroke
@@ -23934,6 +24570,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 332.74) (xy 304.8 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a84cb7-5687-4740-badb-e115795767c3")
+	)
+	(wire
+		(pts
 			(xy 154.94 200.66) (xy 242.57 200.66)
 		)
 		(stroke
@@ -24061,6 +24707,16 @@
 			(type default)
 		)
 		(uuid "c8dcf239-1d19-466f-a9ae-f68fa5d2d2e4")
+	)
+	(wire
+		(pts
+			(xy 285.75 22.86) (xy 285.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c930b12b-07e8-4cdb-9320-b1ea0962def0")
 	)
 	(wire
 		(pts
@@ -24344,6 +25000,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 411.48) (xy 218.44 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01ee871-0aca-407e-a503-d77991d53351")
+	)
+	(wire
+		(pts
 			(xy 162.56 241.3) (xy 57.15 241.3)
 		)
 		(stroke
@@ -24421,16 +25087,6 @@
 			(type default)
 		)
 		(uuid "d341f07c-db21-4b43-ab59-9797f0d591d3")
-	)
-	(wire
-		(pts
-			(xy 288.29 424.18) (xy 293.37 424.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d393a412-570a-4ae0-b145-db50f7aa2388")
 	)
 	(bus
 		(pts
@@ -24544,6 +25200,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 332.74) (xy 346.71 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e111d4-3d20-4642-98b3-fd03df2c016a")
+	)
+	(wire
+		(pts
 			(xy 351.79 424.18) (xy 351.79 427.99)
 		)
 		(stroke
@@ -24591,6 +25257,16 @@
 			(type default)
 		)
 		(uuid "d6e30d1d-494e-4ba8-aab6-b0bbabdc4c65")
+	)
+	(wire
+		(pts
+			(xy 303.53 411.48) (xy 304.8 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7092f71-c3f1-4779-835c-6fe1a6c3d4db")
 	)
 	(wire
 		(pts
@@ -24841,16 +25517,6 @@
 			(type default)
 		)
 		(uuid "db464638-31c5-400c-be72-38564a520ec3")
-	)
-	(wire
-		(pts
-			(xy 373.38 304.8) (xy 378.46 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db87f4a0-d5ed-49c3-a272-3d0e18deffb3")
 	)
 	(wire
 		(pts
@@ -25144,16 +25810,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 384.81) (xy 337.82 384.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e513a076-33d8-4370-8baf-5526b00ae202")
-	)
-	(wire
-		(pts
 			(xy 233.68 68.58) (xy 227.33 68.58)
 		)
 		(stroke
@@ -25361,6 +26017,16 @@
 			(type default)
 		)
 		(uuid "e8dc669f-61c1-4cf0-afce-935963c3a789")
+	)
+	(wire
+		(pts
+			(xy 215.9 336.55) (xy 218.44 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ddd274-6287-44f0-b921-dafdfba40db0")
 	)
 	(wire
 		(pts
@@ -25584,6 +26250,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 375.92) (xy 218.44 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f147aa0b-7f02-4787-ae4d-fb9780486f3a")
+	)
+	(wire
+		(pts
 			(xy 101.6 208.28) (xy 105.41 208.28)
 		)
 		(stroke
@@ -25794,6 +26470,26 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 372.11) (xy 346.71 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5658783-6ced-41b6-bd1f-c9a54330e554")
+	)
+	(wire
+		(pts
+			(xy 259.08 332.74) (xy 260.35 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5826bcc-797e-4d35-8f65-1c7336e60b50")
+	)
+	(wire
+		(pts
 			(xy 201.93 66.04) (xy 201.93 49.53)
 		)
 		(stroke
@@ -25881,6 +26577,16 @@
 			(type default)
 		)
 		(uuid "f70dbbcb-fa7d-4525-9e13-186160694152")
+	)
+	(wire
+		(pts
+			(xy 257.81 375.92) (xy 260.35 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70f0321-15fb-4861-ab00-1791a5facfa5")
 	)
 	(wire
 		(pts
@@ -26292,6 +26998,16 @@
 		)
 		(uuid "07908718-12e9-4dc1-9717-cc99b7b81126")
 	)
+	(label "{slash}ENABLE"
+		(at 280.67 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07b294f7-550c-4dd3-a4ac-6c6037fd8466")
+	)
 	(label "A0"
 		(at 304.8 193.04 0)
 		(effects
@@ -26391,6 +27107,16 @@
 			(justify left bottom)
 		)
 		(uuid "0dd780a7-1219-458d-ad66-7c569b948297")
+	)
+	(label "{slash}ENABLE"
+		(at 146.05 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0de533f9-7a63-4f74-a142-1a54e228f4c7")
 	)
 	(label "A8"
 		(at 52.07 99.06 180)
@@ -26762,7 +27488,7 @@
 		)
 		(uuid "314b41bc-e62e-4594-8d49-3c9860501bf7")
 	)
-	(label "D3"
+	(label "D2"
 		(at 34.29 124.46 0)
 		(effects
 			(font
@@ -26771,6 +27497,16 @@
 			(justify left bottom)
 		)
 		(uuid "34aa59ef-21b6-472a-b14c-3858ae56314e")
+	)
+	(label "{slash}ENABLE"
+		(at 125.73 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34cbc995-f7dd-41a5-ba8e-1df29f0a0845")
 	)
 	(label "A11"
 		(at 52.07 96.52 180)
@@ -27482,6 +28218,16 @@
 		)
 		(uuid "7d725617-5245-4ed5-9938-4dec366de040")
 	)
+	(label "{slash}ENABLE"
+		(at 125.73 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7da53d0e-0f6b-441e-b813-b729931e4c31")
+	)
 	(label "MD read"
 		(at 88.9 311.15 0)
 		(effects
@@ -27531,6 +28277,16 @@
 			(justify left bottom)
 		)
 		(uuid "7f9bb451-69c7-40b6-9aec-b1afb44aa3be")
+	)
+	(label "INTAK"
+		(at 24.13 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82281d03-f8d8-48c4-aba9-a62346051a63")
 	)
 	(label "A0"
 		(at 113.03 95.25 0)
@@ -27662,7 +28418,7 @@
 		)
 		(uuid "90b8519c-881f-433a-96e4-4a444845d2f7")
 	)
-	(label "{slash}INTAK?"
+	(label "{slash}INTAK"
 		(at 241.3 8.89 0)
 		(effects
 			(font
@@ -27671,6 +28427,16 @@
 			(justify left bottom)
 		)
 		(uuid "90e11f34-0786-4411-a298-d6be808efb36")
+	)
+	(label "{slash}ENABLE"
+		(at 240.03 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91b37cd3-0f21-40ba-9b55-dde1e9b7c999")
 	)
 	(label "{slash}CAS"
 		(at 57.15 88.9 180)
@@ -28582,6 +29348,16 @@
 		)
 		(uuid "de363830-651b-4d0e-b56c-fa03150dec75")
 	)
+	(label "INTAK"
+		(at 266.7 2.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "deec93ad-9cbe-4e1b-8dcc-df38bdc72cbb")
+	)
 	(label "MA"
 		(at 388.62 347.98 0)
 		(effects
@@ -28852,6 +29628,16 @@
 		)
 		(uuid "f242f41b-e1c3-4711-a8a7-6487a9b1f9d9")
 	)
+	(label "{slash}ENABLE"
+		(at 248.92 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f40835e1-0fda-4ba4-9e79-3b10e9593227")
+	)
 	(label "A12"
 		(at 101.6 208.28 0)
 		(effects
@@ -28861,6 +29647,16 @@
 			(justify left bottom)
 		)
 		(uuid "f4536f3f-f098-472f-93e7-324ceb1346d1")
+	)
+	(label "{slash}ENABLE"
+		(at 125.73 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6c2245a-2574-4870-b233-d9fd8a8d499b")
 	)
 	(label "MD3"
 		(at 351.79 386.08 0)
@@ -28991,84 +29787,6 @@
 			(justify right bottom)
 		)
 		(uuid "fefef2ad-e5b5-440e-9c7d-1c24b58104f7")
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 304.8 372.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03b5b350-8c11-4ab6-87db-9b2252c0bafc")
-		(property "Reference" "#PWR028"
-			(at 304.8 375.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 304.8 367.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 372.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 372.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 304.8 372.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3083601b-681e-4b73-aa8b-22acc182b055")
-		)
-		(instances
-			(project "Homebrew TRS-80"
-				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -29501,6 +30219,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 260.35 328.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0c07cd3f-a2d7-471b-a1d9-f05198dd6ed7")
+		(property "Reference" "#PWR0109"
+			(at 260.35 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 257.81 325.374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 260.35 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15883ecc-03d9-4b01-818b-d47c490a4961")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS74")
 		(at 304.8 102.87 90)
 		(unit 1)
@@ -29690,84 +30485,6 @@
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 218.44 372.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ff00093-2d96-45c5-a2f0-e4e36a52f87b")
-		(property "Reference" "#PWR030"
-			(at 218.44 375.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 218.44 367.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 372.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 372.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 218.44 372.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f50758f-695a-40da-91cf-09b43078d69d")
-		)
-		(instances
-			(project "Homebrew TRS-80"
-				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -30528,6 +31245,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 259.08 372.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1eb8f4f5-601a-4ee7-8443-ec3bd91f7d94")
+		(property "Reference" "#PWR032"
+			(at 259.08 375.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 257.048 368.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 259.08 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "352c42f6-32c9-407b-b5a3-bbc731061596")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 337.82 332.74 0)
 		(unit 1)
@@ -30606,7 +31400,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_RAM:MK4164N")
+		(lib_id "uPD416c:uPD416c")
 		(at 276.86 292.1 90)
 		(unit 1)
 		(body_style 1)
@@ -30618,25 +31412,24 @@
 		(fields_autoplaced yes)
 		(uuid "1fe17032-f8e2-4ca3-a225-f97f5397eb55")
 		(property "Reference" "U16"
-			(at 256.54 289.9567 0)
+			(at 293.37 289.1946 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MK4164N"
-			(at 259.08 289.9567 0)
+		(property "Value" "uPD416c"
+			(at 259.08 278.638 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
@@ -30650,7 +31443,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=134"
+		(property "Datasheet" "https://datasheet4u.com/pdf/609014/D416C.pdf"
 			(at 293.624 292.1 0)
 			(hide yes)
 			(show_name no)
@@ -30661,7 +31454,7 @@
 				)
 			)
 		)
-		(property "Description" "65536 x 1 bit Dynamic RAM, 120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
+		(property "Description" "16384 x 1 bit Dynamic RAM, 120/150ns access time, -5V, +5V, +12V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
 			(at 295.656 291.084 0)
 			(hide yes)
 			(show_name no)
@@ -30724,84 +31517,6 @@
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "U16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 337.82 345.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "202510fe-2abf-47ad-b313-73cf99bb0d0c")
-		(property "Reference" "#PWR070"
-			(at 337.82 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 337.82 340.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 337.82 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ecab488-b69a-4984-a70f-32bd74546669")
-		)
-		(instances
-			(project "Homebrew TRS-80"
-				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -31466,7 +32181,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_RAM:MK4164N")
+		(lib_id "uPD416c:uPD416c")
 		(at 322.58 372.11 90)
 		(unit 1)
 		(body_style 1)
@@ -31477,7 +32192,7 @@
 		(dnp no)
 		(uuid "2d290e78-668e-42eb-9b71-3e6706d6339a")
 		(property "Reference" "U25"
-			(at 302.26 369.9667 0)
+			(at 302.768 358.902 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31487,8 +32202,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MK4164N"
-			(at 327.66 375.412 0)
+		(property "Value" "uPD416c"
+			(at 304.8 358.648 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31509,7 +32224,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=134"
+		(property "Datasheet" "https://datasheet4u.com/pdf/609014/D416C.pdf"
 			(at 339.344 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -31520,7 +32235,7 @@
 				)
 			)
 		)
-		(property "Description" "65536 x 1 bit Dynamic RAM, 120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
+		(property "Description" "16384 x 1 bit Dynamic RAM, 120/150ns access time, -5V, +5V, +12V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
 			(at 341.376 371.094 0)
 			(hide yes)
 			(show_name no)
@@ -32035,8 +32750,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 260.35 372.11 0)
+		(lib_id "power:VDD")
+		(at 346.71 328.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32044,10 +32759,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3629c506-63b7-40df-8c6f-08eb28b9a2da")
-		(property "Reference" "#PWR029"
-			(at 260.35 375.92 0)
+		(uuid "32ad5cc6-872b-4642-8bcd-ffbf121f4c3f")
+		(property "Reference" "#PWR0113"
+			(at 346.71 332.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32057,8 +32771,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 260.35 367.03 0)
+		(property "Value" "VDD"
+			(at 344.17 325.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32068,7 +32782,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 372.11 0)
+			(at 346.71 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32079,7 +32793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 372.11 0)
+			(at 346.71 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32089,8 +32803,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 260.35 372.11 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 346.71 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32101,12 +32815,89 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5fd5288-ce9c-4b61-a826-d62936ae0dc5")
+			(uuid "f89bf105-7701-44c2-9741-5f3e908c9ef0")
 		)
 		(instances
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR029")
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 259.08 332.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3524bfed-dc98-4d50-824c-35534ca0e130")
+		(property "Reference" "#PWR027"
+			(at 259.08 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 257.048 328.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 259.08 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5eeac6a8-b52d-43ee-94c0-6c1cb2e9de2a")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -32262,6 +33053,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 217.17 411.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "387d244d-d02a-475e-a826-41a11a4017d2")
+		(property "Reference" "#PWR050"
+			(at 217.17 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 215.138 407.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 217.17 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72de9b1c-755a-403e-9dae-16df046e1957")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS05")
 		(at 410.21 181.61 90)
 		(unit 4)
@@ -32380,84 +33248,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 251.46 424.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "399e5984-a973-4699-9641-a22fd6888d8f")
-		(property "Reference" "#PWR067"
-			(at 251.46 427.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 251.46 419.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 424.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 424.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 251.46 424.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2453c7ff-4af9-4ec1-8b2d-15bd2a358ba9")
-		)
-		(instances
-			(project "Homebrew TRS-80"
-				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 133.35 125.73 0)
 		(unit 1)
@@ -32536,7 +33326,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_RAM:MK4164N")
+		(lib_id "uPD416c:uPD416c")
 		(at 322.58 411.48 90)
 		(unit 1)
 		(body_style 1)
@@ -32547,7 +33337,7 @@
 		(dnp no)
 		(uuid "3e52f6d5-b5ec-4471-a22d-45ed3377a924")
 		(property "Reference" "U29"
-			(at 302.26 409.3367 0)
+			(at 302.768 398.272 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32557,8 +33347,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MK4164N"
-			(at 327.66 414.782 0)
+		(property "Value" "uPD416c"
+			(at 304.8 398.018 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32579,7 +33369,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=134"
+		(property "Datasheet" "https://datasheet4u.com/pdf/609014/D416C.pdf"
 			(at 339.344 411.48 0)
 			(hide yes)
 			(show_name no)
@@ -32590,7 +33380,7 @@
 				)
 			)
 		)
-		(property "Description" "65536 x 1 bit Dynamic RAM, 120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
+		(property "Description" "16384 x 1 bit Dynamic RAM, 120/150ns access time, -5V, +5V, +12V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
 			(at 341.376 410.464 0)
 			(hide yes)
 			(show_name no)
@@ -32900,7 +33690,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 260.35 411.48 0)
+		(at 344.17 292.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32908,10 +33698,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "400bc0f4-9c49-4796-bb22-cc29f2f23fa2")
-		(property "Reference" "#PWR050"
-			(at 260.35 415.29 0)
+		(uuid "40bfd7f6-b783-49d0-b4c1-37f3fc877270")
+		(property "Reference" "#PWR033"
+			(at 344.17 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32922,7 +33711,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 260.35 406.4 0)
+			(at 342.138 288.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32932,7 +33721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 411.48 0)
+			(at 344.17 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32943,7 +33732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 411.48 0)
+			(at 344.17 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32954,7 +33743,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 260.35 411.48 0)
+			(at 344.17 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32965,12 +33754,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b624cbd-9d00-4304-a2cf-aa400feec616")
+			(uuid "b6ca81e2-d960-4c11-ac44-4caf3aaba0fd")
 		)
 		(instances
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR050")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -33095,8 +33884,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 218.44 411.48 0)
+		(lib_id "power:VEE")
+		(at 215.9 336.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33104,10 +33893,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4153a3c7-00ed-404c-b043-bdfa1ad60be9")
-		(property "Reference" "#PWR048"
-			(at 218.44 415.29 0)
+		(uuid "41367ecd-608a-4c6d-9dce-b1fbf6745719")
+		(property "Reference" "#PWR0106"
+			(at 215.9 340.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33117,8 +33905,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 218.44 406.4 0)
+		(property "Value" "VEE"
+			(at 214.63 332.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33128,7 +33916,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 411.48 0)
+			(at 215.9 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33139,7 +33927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 411.48 0)
+			(at 215.9 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33149,8 +33937,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 218.44 411.48 0)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 215.9 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33161,12 +33949,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7fcad66e-cc66-4d8c-9857-cc87f708c9d4")
+			(uuid "40dfd0ec-1d6e-4fdd-8555-0896077eb4af")
 		)
 		(instances
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR048")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -33477,6 +34265,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VEE")
+		(at 302.26 336.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44364cb5-7383-4bbf-bc00-800fb5c00547")
+		(property "Reference" "#PWR0110"
+			(at 302.26 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 300.99 332.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 302.26 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cd20ace-07a6-46bf-8784-e62971d9a832")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 204.47 419.1 0)
 		(unit 1)
@@ -33750,6 +34615,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 303.53 288.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46b0b197-f5dd-42b7-98e4-e8aa49b155ae")
+		(property "Reference" "#PWR0103"
+			(at 303.53 292.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 300.99 284.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 303.53 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb4e0e5a-8a0b-435a-9d77-110dba851362")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS02")
 		(at 231.14 29.21 90)
 		(unit 2)
@@ -33946,6 +34888,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 346.71 407.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49876eb6-c972-4e1f-b593-5e6d59c158be")
+		(property "Reference" "#PWR0130"
+			(at 346.71 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 344.17 404.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 407.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 407.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 346.71 407.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cbac877-4083-4876-902d-2079779fe021")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 379.73 411.48 0)
 		(unit 1)
@@ -34025,7 +35044,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 259.08 292.1 0)
+		(at 257.81 292.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34033,10 +35052,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4ac37e93-44db-46ed-8658-ae104bd5091f")
 		(property "Reference" "#PWR024"
-			(at 259.08 295.91 0)
+			(at 257.81 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34047,7 +35065,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 259.08 287.02 0)
+			(at 255.778 288.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34057,7 +35075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 292.1 0)
+			(at 257.81 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34068,7 +35086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 292.1 0)
+			(at 257.81 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34079,7 +35097,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 259.08 292.1 0)
+			(at 257.81 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34258,8 +35276,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 260.35 332.74 0)
+		(lib_id "power:VDD")
+		(at 218.44 368.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34267,10 +35285,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f2d5ccf-f87f-41ca-893b-3b27b0aa1410")
-		(property "Reference" "#PWR025"
-			(at 260.35 336.55 0)
+		(uuid "4ebc1eb2-b691-4ce8-ab5d-0b57e088eeeb")
+		(property "Reference" "#PWR0121"
+			(at 218.44 372.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34280,8 +35297,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 260.35 327.66 0)
+		(property "Value" "VDD"
+			(at 215.9 364.744 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34291,7 +35308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 332.74 0)
+			(at 218.44 368.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34302,7 +35319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 332.74 0)
+			(at 218.44 368.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34312,8 +35329,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 260.35 332.74 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 218.44 368.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34324,12 +35341,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e7baeb77-57f8-47c0-a4b0-56cecffb5aa2")
+			(uuid "a5887977-1d3f-4ab5-b0b5-a31786dfa16a")
 		)
 		(instances
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR025")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -34525,6 +35542,83 @@
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "U10")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VEE")
+		(at 256.54 295.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5312bc0f-d82d-4a49-b73b-9012479fecbc")
+		(property "Reference" "#PWR099"
+			(at 256.54 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 255.27 292.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 256.54 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "885df803-c21f-4927-aa91-4f4c4c961f26")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR099")
+					(unit 1)
 				)
 			)
 		)
@@ -34733,8 +35827,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 293.37 424.18 0)
+		(lib_id "power:VDD")
+		(at 218.44 407.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34742,10 +35836,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59527292-f056-40e9-95cb-443350a6b127")
-		(property "Reference" "#PWR066"
-			(at 293.37 427.99 0)
+		(uuid "56b971aa-3708-465b-b4e6-804dc2589da8")
+		(property "Reference" "#PWR0123"
+			(at 218.44 411.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34755,8 +35848,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 293.37 419.1 0)
+		(property "Value" "VDD"
+			(at 215.9 404.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34766,7 +35859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 293.37 424.18 0)
+			(at 218.44 407.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34777,7 +35870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 293.37 424.18 0)
+			(at 218.44 407.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34787,8 +35880,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 293.37 424.18 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 218.44 407.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34799,19 +35892,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "8297fc4e-36ed-4488-8fa7-d6ddf4c4caaa")
+			(uuid "115aae8c-30f1-4b95-b6ac-056b092f5679")
 		)
 		(instances
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR066")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Memory_RAM:MK4164N")
+		(lib_id "uPD416c:uPD416c")
 		(at 364.49 411.48 90)
 		(unit 1)
 		(body_style 1)
@@ -34820,10 +35913,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5a1a0e4f-ca6e-4930-bde2-aa77d183ea8b")
 		(property "Reference" "U30"
-			(at 344.17 409.3367 0)
+			(at 344.678 398.272 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34833,8 +35925,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MK4164N"
-			(at 346.71 409.3367 0)
+		(property "Value" "uPD416c"
+			(at 346.71 398.018 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34855,7 +35948,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=134"
+		(property "Datasheet" "https://datasheet4u.com/pdf/609014/D416C.pdf"
 			(at 381.254 411.48 0)
 			(hide yes)
 			(show_name no)
@@ -34866,7 +35959,7 @@
 				)
 			)
 		)
-		(property "Description" "65536 x 1 bit Dynamic RAM, 120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
+		(property "Description" "16384 x 1 bit Dynamic RAM, 120/150ns access time, -5V, +5V, +12V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
 			(at 383.286 410.464 0)
 			(hide yes)
 			(show_name no)
@@ -35007,84 +36100,6 @@
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 345.44 292.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a92bd0d-4e64-4156-8e6a-502caa861cf9")
-		(property "Reference" "#PWR033"
-			(at 345.44 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 345.44 287.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 292.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 292.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 345.44 292.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "743b2816-824e-4bd4-aad7-04015b1eb59e")
-		)
-		(instances
-			(project "Homebrew TRS-80"
-				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -35286,8 +36301,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 304.8 411.48 0)
+		(lib_id "power:VEE")
+		(at 257.81 415.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35295,10 +36310,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bb34bf6-425c-40e6-9a4d-9cc4f4acc6a5")
-		(property "Reference" "#PWR052"
-			(at 304.8 415.29 0)
+		(uuid "5ba9c3c6-0db8-41ec-a64a-6ddc9aee13e0")
+		(property "Reference" "#PWR0124"
+			(at 257.81 419.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35308,8 +36322,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 304.8 406.4 0)
+		(property "Value" "VEE"
+			(at 256.54 411.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35319,7 +36333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 304.8 411.48 0)
+			(at 257.81 415.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35330,7 +36344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 304.8 411.48 0)
+			(at 257.81 415.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35340,8 +36354,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 304.8 411.48 0)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 257.81 415.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35352,12 +36366,89 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f76ac1d-27ce-49e8-ad6f-c10d3c54804b")
+			(uuid "e24f7751-1efe-4c2d-aa7a-0ef9a1fe5851")
 		)
 		(instances
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR052")
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 345.44 372.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ddebe0c-dbde-4b5c-9044-6d44cd3d3fa3")
+		(property "Reference" "#PWR030"
+			(at 345.44 375.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 343.408 368.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 345.44 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a4ea278-e37c-4444-be61-d2abd062a01a")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -35483,7 +36574,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS04")
-		(at 273.05 30.48 90)
+		(at 271.78 30.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35493,7 +36584,7 @@
 		(dnp no)
 		(uuid "6339cd86-69e0-46ff-9873-13438876b0a2")
 		(property "Reference" "U38"
-			(at 274.574 25.4 90)
+			(at 273.304 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35504,7 +36595,7 @@
 			)
 		)
 		(property "Value" "74LS04"
-			(at 264.668 27.686 90)
+			(at 263.398 27.686 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35515,7 +36606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 30.48 0)
+			(at 271.78 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35526,7 +36617,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 273.05 30.48 0)
+			(at 271.78 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35537,7 +36628,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 273.05 30.48 0)
+			(at 271.78 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35710,6 +36801,83 @@
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "U37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 217.17 332.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66f874aa-209f-4024-b5b3-6e55bea469b5")
+		(property "Reference" "#PWR025"
+			(at 217.17 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 215.138 328.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 217.17 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3abd5f6-48a2-4882-ba28-02947f5b1bd1")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -36035,6 +37203,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 217.17 372.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c06dc74-1d5c-43de-a7ee-0c8f4027c0a1")
+		(property "Reference" "#PWR048"
+			(at 217.17 375.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 215.138 368.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 217.17 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f39fcf54-f36d-4cf2-a847-474af53b2516")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 289.56 0)
 		(unit 1)
@@ -36352,6 +37597,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VEE")
+		(at 257.81 336.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "719e2914-3589-4c7e-8d2c-865cb1a0dad4")
+		(property "Reference" "#PWR0108"
+			(at 257.81 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 256.54 332.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 257.81 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da35be45-e51e-4fd5-a060-d51bb9e5b709")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 387.35 35.56 0)
 		(unit 1)
@@ -36430,85 +37752,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 337.82 424.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73cb5dfc-d521-4e7d-8a2f-dd0ab0d9678a")
-		(property "Reference" "#PWR065"
-			(at 337.82 427.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 337.82 419.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 424.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 424.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 337.82 424.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c37927f1-de53-4355-83b7-e0f63182ca0b")
-		)
-		(instances
-			(project "Homebrew TRS-80"
-				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_RAM:MK4164N")
+		(lib_id "uPD416c:uPD416c")
 		(at 236.22 372.11 90)
 		(unit 1)
 		(body_style 1)
@@ -36520,25 +37764,24 @@
 		(fields_autoplaced yes)
 		(uuid "74155f98-e5d8-4b7c-8028-0816ca8bf508")
 		(property "Reference" "U23"
-			(at 215.9 369.9667 0)
+			(at 252.73 369.2046 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MK4164N"
-			(at 218.44 369.9667 0)
+		(property "Value" "uPD416c"
+			(at 218.44 358.648 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
@@ -36552,7 +37795,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=134"
+		(property "Datasheet" "https://datasheet4u.com/pdf/609014/D416C.pdf"
 			(at 252.984 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -36563,7 +37806,7 @@
 				)
 			)
 		)
-		(property "Description" "65536 x 1 bit Dynamic RAM, 120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
+		(property "Description" "16384 x 1 bit Dynamic RAM, 120/150ns access time, -5V, +5V, +12V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
 			(at 255.016 371.094 0)
 			(hide yes)
 			(show_name no)
@@ -36868,6 +38111,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 218.44 328.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "771515b3-ad65-4357-9089-68e743e3479b")
+		(property "Reference" "#PWR0107"
+			(at 218.44 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 215.9 325.374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 218.44 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99376c0a-4c51-431e-942b-f048b0b65b7d")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 97.79 220.98 0)
 		(unit 1)
@@ -37145,8 +38465,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 293.37 384.81 0)
+		(lib_id "power:VEE")
+		(at 215.9 415.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37154,10 +38474,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7df72f2d-ac02-448e-be19-d2a07b09c394")
-		(property "Reference" "#PWR062"
-			(at 293.37 388.62 0)
+		(uuid "7dca4e64-724e-49a3-bcd9-aa93a5a82ba4")
+		(property "Reference" "#PWR0122"
+			(at 215.9 419.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37167,8 +38486,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 293.37 379.73 0)
+		(property "Value" "VEE"
+			(at 214.63 411.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37178,7 +38497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 293.37 384.81 0)
+			(at 215.9 415.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37189,7 +38508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 293.37 384.81 0)
+			(at 215.9 415.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37199,8 +38518,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 293.37 384.81 0)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 215.9 415.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37211,12 +38530,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "115e9989-4439-4101-b1f0-6c9762516cdd")
+			(uuid "0f814e67-38c5-4487-bad3-90e42c39d195")
 		)
 		(instances
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR062")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -37699,7 +39018,84 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_RAM:MK4164N")
+		(lib_id "power:VEE")
+		(at 302.26 415.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8520df2a-f7d6-474d-b81d-c912d3a810be")
+		(property "Reference" "#PWR0126"
+			(at 302.26 419.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 300.99 411.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 302.26 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f663d38-746a-4373-8f0f-d0f9f3396787")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uPD416c:uPD416c")
 		(at 278.13 411.48 90)
 		(unit 1)
 		(body_style 1)
@@ -37711,18 +39107,18 @@
 		(fields_autoplaced yes)
 		(uuid "871deaeb-616d-46a7-9aeb-dd4c6b18bd39")
 		(property "Reference" "U28"
-			(at 257.81 409.3367 0)
+			(at 294.64 408.5746 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MK4164N"
-			(at 260.35 409.3367 0)
+		(property "Value" "uPD416c"
+			(at 260.35 398.018 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37743,7 +39139,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=134"
+		(property "Datasheet" "https://datasheet4u.com/pdf/609014/D416C.pdf"
 			(at 294.894 411.48 0)
 			(hide yes)
 			(show_name no)
@@ -37754,7 +39150,7 @@
 				)
 			)
 		)
-		(property "Description" "65536 x 1 bit Dynamic RAM, 120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
+		(property "Description" "16384 x 1 bit Dynamic RAM, 120/150ns access time, -5V, +5V, +12V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
 			(at 296.926 410.464 0)
 			(hide yes)
 			(show_name no)
@@ -38146,7 +39542,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS04")
-		(at 281.94 30.48 90)
+		(at 280.67 30.48 90)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38156,7 +39552,7 @@
 		(dnp no)
 		(uuid "88064716-067a-4b8e-b3a2-c01b885f00b8")
 		(property "Reference" "U38"
-			(at 283.464 25.4 90)
+			(at 282.194 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38167,7 +39563,7 @@
 			)
 		)
 		(property "Value" "74LS04"
-			(at 273.558 27.686 90)
+			(at 272.288 27.686 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38179,7 +39575,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 30.48 0)
+			(at 280.67 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38190,7 +39586,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 281.94 30.48 0)
+			(at 280.67 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38201,7 +39597,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 281.94 30.48 0)
+			(at 280.67 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38263,8 +39659,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 379.73 424.18 0)
+		(lib_id "power:VDD")
+		(at 217.17 288.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38272,10 +39668,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89c3be1e-a61f-4d26-8430-707b7ef1ec76")
-		(property "Reference" "#PWR064"
-			(at 379.73 427.99 0)
+		(uuid "8983e4f2-7645-4975-a467-1680e8d93202")
+		(property "Reference" "#PWR0101"
+			(at 217.17 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38285,8 +39680,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 379.73 419.1 0)
+		(property "Value" "VDD"
+			(at 214.376 286.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38296,7 +39691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.73 424.18 0)
+			(at 217.17 288.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38307,7 +39702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 424.18 0)
+			(at 217.17 288.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38317,8 +39712,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 379.73 424.18 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 217.17 288.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38329,12 +39724,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba37ec9b-481e-4fe5-928f-105c9da6f4cd")
+			(uuid "0d321d48-d592-42ee-baf0-a78ff793f0b7")
 		)
 		(instances
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR064")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -38654,85 +40049,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 218.44 332.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c55ce0c-ee65-4e08-b318-8f7d70629847")
-		(property "Reference" "#PWR022"
-			(at 218.44 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 218.44 327.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 332.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 332.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 218.44 332.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c21bba7a-a1ef-4216-bfb2-b83ddb6da0e0")
-		)
-		(instances
-			(project "Homebrew TRS-80"
-				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_RAM:MK4164N")
+		(lib_id "uPD416c:uPD416c")
 		(at 364.49 332.74 90)
 		(unit 1)
 		(body_style 1)
@@ -38744,25 +40061,24 @@
 		(fields_autoplaced yes)
 		(uuid "8c7f2965-3cd4-409d-a823-72f53ed64eea")
 		(property "Reference" "U22"
-			(at 344.17 330.5967 0)
+			(at 381 329.8346 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MK4164N"
-			(at 346.71 330.5967 0)
+		(property "Value" "uPD416c"
+			(at 346.71 319.278 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
@@ -38776,7 +40092,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=134"
+		(property "Datasheet" "https://datasheet4u.com/pdf/609014/D416C.pdf"
 			(at 381.254 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -38787,7 +40103,7 @@
 				)
 			)
 		)
-		(property "Description" "65536 x 1 bit Dynamic RAM, 120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
+		(property "Description" "16384 x 1 bit Dynamic RAM, 120/150ns access time, -5V, +5V, +12V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
 			(at 383.286 331.724 0)
 			(hide yes)
 			(show_name no)
@@ -39089,7 +40405,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_RAM:MK4164N")
+		(lib_id "uPD416c:uPD416c")
 		(at 278.13 332.74 90)
 		(unit 1)
 		(body_style 1)
@@ -39101,25 +40417,24 @@
 		(fields_autoplaced yes)
 		(uuid "93c142c6-585b-44ef-a512-bef13250cadb")
 		(property "Reference" "U20"
-			(at 257.81 330.5967 0)
+			(at 294.64 329.8346 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MK4164N"
-			(at 260.35 330.5967 0)
+		(property "Value" "uPD416c"
+			(at 260.35 319.278 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
@@ -39133,7 +40448,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=134"
+		(property "Datasheet" "https://datasheet4u.com/pdf/609014/D416C.pdf"
 			(at 294.894 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -39144,7 +40459,7 @@
 				)
 			)
 		)
-		(property "Description" "65536 x 1 bit Dynamic RAM, 120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
+		(property "Description" "16384 x 1 bit Dynamic RAM, 120/150ns access time, -5V, +5V, +12V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
 			(at 296.926 331.724 0)
 			(hide yes)
 			(show_name no)
@@ -39413,84 +40728,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 346.71 411.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "962889a2-e349-4f69-b8a3-c2b8e7e5e648")
-		(property "Reference" "#PWR054"
-			(at 346.71 415.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 346.71 406.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 346.71 411.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 346.71 411.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 346.71 411.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc273375-abbc-4258-a993-71024278460b")
-		)
-		(instances
-			(project "Homebrew TRS-80"
-				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
 		(at 397.51 134.62 90)
 		(unit 1)
@@ -39582,162 +40819,6 @@
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 346.71 372.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9928138d-6370-4c4c-9062-87d5703da6d8")
-		(property "Reference" "#PWR031"
-			(at 346.71 375.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 346.71 367.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 346.71 372.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 346.71 372.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 346.71 372.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a5fdda1-b343-4ee6-8cab-312eab6d9ce6")
-		)
-		(instances
-			(project "Homebrew TRS-80"
-				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 379.73 384.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "996f68ba-1107-41ba-bf0a-36d26807344a")
-		(property "Reference" "#PWR068"
-			(at 379.73 388.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 379.73 379.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 379.73 384.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 379.73 384.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 379.73 384.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c4b205ca-0d88-439f-93c4-01261b015327")
-		)
-		(instances
-			(project "Homebrew TRS-80"
-				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -39862,6 +40943,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VEE")
+		(at 214.63 295.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b14bde4-080f-4d70-95e6-1d8daa803827")
+		(property "Reference" "#PWR098"
+			(at 214.63 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 216.154 297.434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 214.63 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b688575-14f1-4737-bd4a-c108c6165e6d")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 133.35 82.55 0)
 		(unit 1)
@@ -39934,6 +41092,83 @@
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 304.8 368.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b3b4e93-0708-4372-87b8-849cd5bc6fc8")
+		(property "Reference" "#PWR0117"
+			(at 304.8 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 302.26 364.744 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 368.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 368.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 304.8 368.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d7e18ad-b153-4f31-9fb5-01a783c17496")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -40457,7 +41692,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_RAM:MK4164N")
+		(lib_id "uPD416c:uPD416c")
 		(at 321.31 292.1 90)
 		(unit 1)
 		(body_style 1)
@@ -40469,25 +41704,24 @@
 		(fields_autoplaced yes)
 		(uuid "9ef35ce9-ce13-4684-bc8d-bc5153d49aaa")
 		(property "Reference" "U17"
-			(at 300.99 289.9567 0)
+			(at 337.82 289.1946 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MK4164N"
-			(at 303.53 289.9567 0)
+		(property "Value" "uPD416c"
+			(at 303.53 278.638 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
@@ -40501,7 +41735,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=134"
+		(property "Datasheet" "https://datasheet4u.com/pdf/609014/D416C.pdf"
 			(at 338.074 292.1 0)
 			(hide yes)
 			(show_name no)
@@ -40512,7 +41746,7 @@
 				)
 			)
 		)
-		(property "Description" "65536 x 1 bit Dynamic RAM, 120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
+		(property "Description" "16384 x 1 bit Dynamic RAM, 120/150ns access time, -5V, +5V, +12V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
 			(at 340.106 291.084 0)
 			(hide yes)
 			(show_name no)
@@ -40815,6 +42049,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VEE")
+		(at 302.26 375.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a21f7d41-43c3-41b6-b925-186f537c0bcb")
+		(property "Reference" "#PWR0116"
+			(at 302.26 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 300.99 372.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 375.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 375.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 302.26 375.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3089d2e5-ea43-4972-a458-6a3dc5877fc1")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "2764_1")
 		(lib_id "Memory_EPROM:2764")
 		(at 111.76 289.56 90)
@@ -40964,7 +42275,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_RAM:MK4164N")
+		(lib_id "uPD416c:uPD416c")
 		(at 236.22 332.74 90)
 		(unit 1)
 		(body_style 1)
@@ -40976,25 +42287,24 @@
 		(fields_autoplaced yes)
 		(uuid "a73aab32-e5d1-480e-a0c7-39beeff97b33")
 		(property "Reference" "U19"
-			(at 215.9 330.5967 0)
+			(at 252.73 329.8346 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MK4164N"
-			(at 218.44 330.5967 0)
+		(property "Value" "uPD416c"
+			(at 218.44 319.278 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
@@ -41008,7 +42318,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=134"
+		(property "Datasheet" "https://datasheet4u.com/pdf/609014/D416C.pdf"
 			(at 252.984 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -41019,7 +42329,7 @@
 				)
 			)
 		)
-		(property "Description" "65536 x 1 bit Dynamic RAM, 120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
+		(property "Description" "16384 x 1 bit Dynamic RAM, 120/150ns access time, -5V, +5V, +12V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
 			(at 255.016 331.724 0)
 			(hide yes)
 			(show_name no)
@@ -41284,7 +42594,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 292.1 304.8 0)
+		(at 303.53 411.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41292,10 +42602,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9221a58-c2b7-4a06-8323-255d54527c38")
-		(property "Reference" "#PWR074"
-			(at 292.1 308.61 0)
+		(uuid "a90639cb-9031-435d-9dd7-88c35f3103ba")
+		(property "Reference" "#PWR054"
+			(at 303.53 415.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41306,7 +42615,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 292.1 299.72 0)
+			(at 301.498 407.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41316,7 +42625,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 292.1 304.8 0)
+			(at 303.53 411.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41327,7 +42636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 304.8 0)
+			(at 303.53 411.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41338,7 +42647,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 292.1 304.8 0)
+			(at 303.53 411.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41349,12 +42658,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8584581d-81b8-44b8-97a5-ccc50f76daad")
+			(uuid "da21db32-ab0d-410a-9de8-e145c9782b93")
 		)
 		(instances
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR074")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -41433,6 +42742,83 @@
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 259.08 411.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a967a3f1-03c3-4c87-9390-50fbf24a6c01")
+		(property "Reference" "#PWR052"
+			(at 259.08 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 257.048 407.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 259.08 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2cd69689-c6d7-45c0-ae2d-ff2676684c47")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -41714,7 +43100,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_RAM:MK4164N")
+		(lib_id "uPD416c:uPD416c")
 		(at 322.58 332.74 90)
 		(unit 1)
 		(body_style 1)
@@ -41726,25 +43112,24 @@
 		(fields_autoplaced yes)
 		(uuid "ac6013ec-b987-42a9-9ea3-dfb1c70aac8f")
 		(property "Reference" "U21"
-			(at 302.26 330.5967 0)
+			(at 339.09 329.8346 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MK4164N"
-			(at 304.8 330.5967 0)
+		(property "Value" "uPD416c"
+			(at 304.8 319.278 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
@@ -41758,7 +43143,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=134"
+		(property "Datasheet" "https://datasheet4u.com/pdf/609014/D416C.pdf"
 			(at 339.344 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -41769,7 +43154,7 @@
 				)
 			)
 		)
-		(property "Description" "65536 x 1 bit Dynamic RAM, 120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
+		(property "Description" "16384 x 1 bit Dynamic RAM, 120/150ns access time, -5V, +5V, +12V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
 			(at 341.376 331.724 0)
 			(hide yes)
 			(show_name no)
@@ -42072,6 +43457,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 345.44 332.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "adeeef7c-c4b6-4445-a50f-5a8434a81fe7")
+		(property "Reference" "#PWR029"
+			(at 345.44 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 343.408 328.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 345.44 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f53cc6a1-ba17-4ed4-89e7-b063ef94a494")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS05")
 		(at 331.47 181.61 90)
 		(unit 4)
@@ -42308,6 +43770,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VEE")
+		(at 344.17 415.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1f3bb2a-9bc0-4688-bd5e-c318256d761f")
+		(property "Reference" "#PWR0128"
+			(at 344.17 419.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 342.9 411.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 344.17 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 344.17 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac53dd40-5872-4026-bb9c-1216ea3f6ace")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 184.15 135.89 0)
 		(unit 1)
@@ -42464,6 +44003,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 259.08 288.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3866f33-f32e-498a-8791-91eb95446890")
+		(property "Reference" "#PWR0102"
+			(at 259.08 292.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 256.54 284.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 259.08 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3df2fd2-0bd6-4f32-ab3c-0bc22e848c17")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 5.08 175.26 0)
 		(unit 1)
@@ -42536,6 +44152,83 @@
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VEE")
+		(at 215.9 375.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4567bda-1637-4629-b98b-d94ab8763848")
+		(property "Reference" "#PWR0120"
+			(at 215.9 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 214.63 372.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 375.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 375.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 215.9 375.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1250d5b-683f-4965-a353-629f9a4bc692")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -42691,6 +44384,83 @@
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 260.35 407.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b71b2498-625e-4244-8f44-d7d486d213cc")
+		(property "Reference" "#PWR0125"
+			(at 260.35 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 257.81 404.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 407.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 407.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 260.35 407.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dabe5d5c-bfbd-46de-90cc-749866fe06df")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -43012,7 +44782,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_RAM:MK4164N")
+		(lib_id "uPD416c:uPD416c")
 		(at 363.22 292.1 90)
 		(unit 1)
 		(body_style 1)
@@ -43021,28 +44791,26 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bddba012-dc2d-4552-a970-ce5d771962b5")
 		(property "Reference" "U18"
-			(at 342.9 289.9567 0)
+			(at 343.408 278.892 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MK4164N"
-			(at 345.44 289.9567 0)
+		(property "Value" "uPD416c"
+			(at 345.44 278.638 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
@@ -43056,7 +44824,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=134"
+		(property "Datasheet" "https://datasheet4u.com/pdf/609014/D416C.pdf"
 			(at 379.984 292.1 0)
 			(hide yes)
 			(show_name no)
@@ -43067,7 +44835,7 @@
 				)
 			)
 		)
-		(property "Description" "65536 x 1 bit Dynamic RAM, 120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
+		(property "Description" "16384 x 1 bit Dynamic RAM, 120/150ns access time, -5V, +5V, +12V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
 			(at 382.016 291.084 0)
 			(hide yes)
 			(show_name no)
@@ -43130,84 +44898,6 @@
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "U18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 251.46 384.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf3de3c8-b8f1-483f-91ef-60d9270c7a11")
-		(property "Reference" "#PWR061"
-			(at 251.46 388.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 251.46 379.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 384.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 384.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 251.46 384.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1241c68e-09cb-4acb-909a-4fc1a8781d92")
-		)
-		(instances
-			(project "Homebrew TRS-80"
-				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -43327,84 +45017,6 @@
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "U42")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 303.53 292.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c27bfa62-0ab1-41d4-809a-fd3ac56b3275")
-		(property "Reference" "#PWR026"
-			(at 303.53 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 303.53 287.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 303.53 292.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 303.53 292.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 303.53 292.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3bc49457-df37-496e-b5fb-eccd262a9c25")
-		)
-		(instances
-			(project "Homebrew TRS-80"
-				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR026")
-					(unit 1)
 				)
 			)
 		)
@@ -43766,7 +45378,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 304.8 332.74 0)
+		(at 345.44 411.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -43774,10 +45386,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7598b51-23cc-4705-ae54-4551d5159697")
-		(property "Reference" "#PWR027"
-			(at 304.8 336.55 0)
+		(uuid "c77aa37d-1d04-4703-87a6-938f1c55b98e")
+		(property "Reference" "#PWR0129"
+			(at 345.44 415.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43788,7 +45399,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 304.8 327.66 0)
+			(at 343.408 407.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43798,7 +45409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 304.8 332.74 0)
+			(at 345.44 411.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43809,7 +45420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 304.8 332.74 0)
+			(at 345.44 411.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43820,7 +45431,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 304.8 332.74 0)
+			(at 345.44 411.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43831,12 +45442,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f28ba81-54e4-4e44-8738-8447d9d62b2e")
+			(uuid "4a2082d4-63e2-44b6-a474-c1858f89111d")
 		)
 		(instances
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR027")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -44038,7 +45649,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_RAM:MK4164N")
+		(lib_id "uPD416c:uPD416c")
 		(at 236.22 411.48 90)
 		(unit 1)
 		(body_style 1)
@@ -44050,18 +45661,18 @@
 		(fields_autoplaced yes)
 		(uuid "cb33ae21-108a-42d5-ae62-eed6af255b9f")
 		(property "Reference" "U27"
-			(at 215.9 409.3367 0)
+			(at 252.73 408.5746 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MK4164N"
-			(at 218.44 409.3367 0)
+		(property "Value" "uPD416c"
+			(at 218.44 398.018 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44082,7 +45693,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=134"
+		(property "Datasheet" "https://datasheet4u.com/pdf/609014/D416C.pdf"
 			(at 252.984 411.48 0)
 			(hide yes)
 			(show_name no)
@@ -44093,7 +45704,7 @@
 				)
 			)
 		)
-		(property "Description" "65536 x 1 bit Dynamic RAM, 120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
+		(property "Description" "16384 x 1 bit Dynamic RAM, 120/150ns access time, -5V, +5V, +12V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
 			(at 255.016 410.464 0)
 			(hide yes)
 			(show_name no)
@@ -44240,7 +45851,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_RAM:MK4164N")
+		(lib_id "uPD416c:uPD416c")
 		(at 364.49 372.11 90)
 		(unit 1)
 		(body_style 1)
@@ -44252,25 +45863,24 @@
 		(fields_autoplaced yes)
 		(uuid "d03fa9e2-c7be-4069-bbe0-719de5660dfc")
 		(property "Reference" "U26"
-			(at 344.17 369.9667 0)
+			(at 381 369.2046 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MK4164N"
-			(at 346.71 369.9667 0)
+		(property "Value" "uPD416c"
+			(at 346.71 358.648 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
@@ -44284,7 +45894,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=134"
+		(property "Datasheet" "https://datasheet4u.com/pdf/609014/D416C.pdf"
 			(at 381.254 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -44295,7 +45905,7 @@
 				)
 			)
 		)
-		(property "Description" "65536 x 1 bit Dynamic RAM, 120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
+		(property "Description" "16384 x 1 bit Dynamic RAM, 120/150ns access time, -5V, +5V, +12V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
 			(at 383.286 371.094 0)
 			(hide yes)
 			(show_name no)
@@ -44364,7 +45974,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_RAM:MK4164N")
+		(lib_id "uPD416c:uPD416c")
 		(at 278.13 372.11 90)
 		(unit 1)
 		(body_style 1)
@@ -44376,25 +45986,24 @@
 		(fields_autoplaced yes)
 		(uuid "d1f108ee-296e-4bf9-974c-0be27917ad10")
 		(property "Reference" "U24"
-			(at 257.81 369.9667 0)
+			(at 294.64 369.2046 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MK4164N"
-			(at 260.35 369.9667 0)
+		(property "Value" "uPD416c"
+			(at 260.35 358.648 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
@@ -44408,7 +46017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=134"
+		(property "Datasheet" "https://datasheet4u.com/pdf/609014/D416C.pdf"
 			(at 294.894 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -44419,7 +46028,7 @@
 				)
 			)
 		)
-		(property "Description" "65536 x 1 bit Dynamic RAM, 120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
+		(property "Description" "16384 x 1 bit Dynamic RAM, 120/150ns access time, -5V, +5V, +12V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)"
 			(at 296.926 371.094 0)
 			(hide yes)
 			(show_name no)
@@ -44482,6 +46091,83 @@
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "U24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 304.8 328.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d204c780-de82-4bfc-8fd3-1334935bdb8f")
+		(property "Reference" "#PWR0111"
+			(at 304.8 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 302.26 325.374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 304.8 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f7b8ac6-313b-44f6-a4cb-6b9d90b44547")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -44929,6 +46615,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 346.71 368.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9945de4-ec16-44a4-9355-9f55e65ad61a")
+		(property "Reference" "#PWR0115"
+			(at 346.71 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 344.17 364.744 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 368.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 368.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 346.71 368.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f77c1cd-1db0-4ff2-af18-faeedbf012aa")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS367")
 		(at 115.57 125.73 90)
 		(mirror x)
@@ -45250,8 +47013,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 293.37 345.44 0)
+		(lib_id "power:VEE")
+		(at 344.17 375.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -45259,10 +47022,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dac1fdb1-64e7-4314-a4e5-a47cf3f4a8f5")
-		(property "Reference" "#PWR071"
-			(at 293.37 349.25 0)
+		(uuid "dcc4ad4c-ad8c-47b3-9a1b-791452b888ab")
+		(property "Reference" "#PWR0114"
+			(at 344.17 379.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45272,8 +47034,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 293.37 340.36 0)
+		(property "Value" "VEE"
+			(at 342.9 372.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45283,7 +47045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 293.37 345.44 0)
+			(at 344.17 375.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45294,7 +47056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 293.37 345.44 0)
+			(at 344.17 375.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45304,86 +47066,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 293.37 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3c71493-613c-43f5-b633-df1f15264399")
-		)
-		(instances
-			(project "Homebrew TRS-80"
-				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 337.82 384.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc1adbd9-d7e3-4e1b-b4d6-59b4ba7bc184")
-		(property "Reference" "#PWR063"
-			(at 337.82 388.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 337.82 379.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 384.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 384.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 337.82 384.81 0)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 344.17 375.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45394,12 +47078,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "78172b7a-67a9-41c6-8caf-8a4afb0ccf7a")
+			(uuid "c18ad0de-22f1-4305-bb83-90700d98af5e")
 		)
 		(instances
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR063")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -45481,6 +47165,83 @@
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 303.53 332.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd94f20b-8f35-422d-be2b-3d17a1723a3d")
+		(property "Reference" "#PWR028"
+			(at 303.53 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 301.498 328.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 303.53 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bacb9af7-bccc-4a3d-bacb-21ff3df99a9b")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -45609,8 +47370,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 251.46 345.44 0)
+		(lib_id "power:VEE")
+		(at 257.81 375.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -45618,10 +47379,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df670abb-5182-4f08-b221-66a3529e4a33")
-		(property "Reference" "#PWR072"
-			(at 251.46 349.25 0)
+		(uuid "ded516ed-01aa-4a61-9e17-a729def42a10")
+		(property "Reference" "#PWR0118"
+			(at 257.81 379.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45631,8 +47391,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 251.46 340.36 0)
+		(property "Value" "VEE"
+			(at 256.54 372.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45642,7 +47402,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 345.44 0)
+			(at 257.81 375.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45653,7 +47413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 345.44 0)
+			(at 257.81 375.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45663,8 +47423,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 251.46 345.44 0)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 257.81 375.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45675,12 +47435,89 @@
 			)
 		)
 		(pin "1"
-			(uuid "81bb99b5-cc9d-4e19-bfad-aaadbeae9e9d")
+			(uuid "8691b92c-bc6f-4c17-9fcd-d24c42c7a515")
 		)
 		(instances
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR072")
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VEE")
+		(at 344.17 336.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df1882d8-c942-4aa5-b3b6-b5f8e3f13df3")
+		(property "Reference" "#PWR0112"
+			(at 344.17 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 342.9 332.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 344.17 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 344.17 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffbe8990-0f73-4ea7-9954-1c5eb633fbec")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -45774,10 +47611,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "df88da9d-2f27-4f5c-98c0-52b23a01b482")
 		(property "Reference" "U15"
-			(at 214.63 289.9567 0)
+			(at 218.694 302.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45788,7 +47624,7 @@
 			)
 		)
 		(property "Value" "MK4164N"
-			(at 217.17 289.9567 0)
+			(at 218.694 289.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45883,84 +47719,6 @@
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 346.71 332.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e02166eb-a719-4bdb-a2a7-41ae4a54f5d9")
-		(property "Reference" "#PWR032"
-			(at 346.71 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 346.71 327.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 346.71 332.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 346.71 332.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 346.71 332.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a87e148e-aca9-4f6e-b422-3da2feceb747")
-		)
-		(instances
-			(project "Homebrew TRS-80"
-				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -46089,6 +47847,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VEE")
+		(at 342.9 295.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2840efc-e9a5-42c1-88f0-993cd7e32bf9")
+		(property "Reference" "#PWR0104"
+			(at 342.9 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEE"
+			(at 341.63 292.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 342.9 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7769b32c-3db0-4d5f-9653-b455c9a37f62")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS32")
 		(at 209.55 105.41 90)
 		(unit 1)
@@ -46205,7 +48040,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 379.73 345.44 0)
+		(at 302.26 292.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -46213,10 +48048,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5469f6b-6fb9-484c-8d5a-a928795fbec0")
-		(property "Reference" "#PWR069"
-			(at 379.73 349.25 0)
+		(uuid "e4ecc6ba-7b1a-48f7-8341-fcaad5b2384c")
+		(property "Reference" "#PWR026"
+			(at 302.26 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46227,7 +48061,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 379.73 340.36 0)
+			(at 300.228 288.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46237,7 +48071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.73 345.44 0)
+			(at 302.26 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46248,7 +48082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 345.44 0)
+			(at 302.26 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46259,7 +48093,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 379.73 345.44 0)
+			(at 302.26 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46270,12 +48104,89 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe756d4a-f8b1-416d-b0f4-abb0937dd188")
+			(uuid "e18331c6-3628-432e-9f46-115fa64b98c9")
 		)
 		(instances
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR069")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 303.53 372.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e649eb26-afb2-4165-b5e7-918fa684aa1c")
+		(property "Reference" "#PWR031"
+			(at 303.53 375.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 301.498 368.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 303.53 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "981b5ba4-1e24-41cb-82f6-3168750ab0e3")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -46399,7 +48310,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 217.17 292.1 0)
+		(at 215.9 292.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -46407,10 +48318,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e75dcc93-76af-446b-81f2-bad6bccae15f")
 		(property "Reference" "#PWR023"
-			(at 217.17 295.91 0)
+			(at 215.9 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46421,7 +48331,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 217.17 287.02 0)
+			(at 213.36 290.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46431,7 +48341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 292.1 0)
+			(at 215.9 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46442,7 +48352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 292.1 0)
+			(at 215.9 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46453,7 +48363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 217.17 292.1 0)
+			(at 215.9 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46470,6 +48380,83 @@
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 345.44 288.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7d73a0d-25ab-42c5-ad50-7b4aede2d028")
+		(property "Reference" "#PWR0105"
+			(at 345.44 292.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 342.9 284.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 345.44 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79df2e97-e5e3-499a-8725-c4a09dba61ec")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -46557,8 +48544,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 250.19 304.8 0)
+		(lib_id "power:VEE")
+		(at 300.99 295.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -46566,10 +48553,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eea2a135-0eca-44a9-a603-61353af3a2f8")
-		(property "Reference" "#PWR073"
-			(at 250.19 308.61 0)
+		(uuid "ecc55386-d4f3-4720-af20-66b5a5d3d875")
+		(property "Reference" "#PWR0100"
+			(at 300.99 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46579,8 +48565,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 250.19 299.72 0)
+		(property "Value" "VEE"
+			(at 299.72 292.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46590,7 +48576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 304.8 0)
+			(at 300.99 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46601,7 +48587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 304.8 0)
+			(at 300.99 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46611,8 +48597,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 250.19 304.8 0)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 300.99 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46623,20 +48609,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "a50e9d1b-18fa-4b4b-b05b-d30f4c84c397")
+			(uuid "f848a551-410c-4594-8d0b-1af4c5274150")
 		)
 		(instances
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR073")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 378.46 304.8 0)
+		(lib_id "power:VDD")
+		(at 304.8 407.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -46644,10 +48630,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f73ded3d-db6c-40c4-91e9-a9887e873976")
-		(property "Reference" "#PWR076"
-			(at 378.46 308.61 0)
+		(uuid "f06c453b-fcc0-4079-abd5-406c4042b060")
+		(property "Reference" "#PWR0127"
+			(at 304.8 411.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46657,8 +48642,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 378.46 299.72 0)
+		(property "Value" "VDD"
+			(at 302.26 404.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46668,7 +48653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 378.46 304.8 0)
+			(at 304.8 407.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46679,7 +48664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 378.46 304.8 0)
+			(at 304.8 407.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46689,8 +48674,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 378.46 304.8 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 304.8 407.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46701,12 +48686,89 @@
 			)
 		)
 		(pin "1"
-			(uuid "82617faf-fed8-46e4-8c7d-b76da829b00d")
+			(uuid "163e5682-2f54-4ddf-beca-20a62407a64a")
 		)
 		(instances
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR076")
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 260.35 368.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f27b8a39-01fc-484c-968b-7b36a03fac38")
+		(property "Reference" "#PWR0119"
+			(at 260.35 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 257.81 364.744 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 368.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 368.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 260.35 368.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "159aab9f-71cf-44ee-906f-72b7d5cf4f83")
+		)
+		(instances
+			(project "Homebrew TRS-80"
+				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -46784,84 +48846,6 @@
 			(project "Homebrew TRS-80"
 				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
 					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 336.55 304.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fab4f4d0-1abc-46ba-8673-08a59982811e")
-		(property "Reference" "#PWR075"
-			(at 336.55 308.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 336.55 299.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 336.55 304.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 336.55 304.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 336.55 304.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4db42a3-9b09-4c29-af87-733a36f33513")
-		)
-		(instances
-			(project "Homebrew TRS-80"
-				(path "/2341c3a9-5475-416f-af44-7f4a7d179220"
-					(reference "#PWR075")
 					(unit 1)
 				)
 			)
